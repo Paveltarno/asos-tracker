@@ -1,0 +1,23 @@
+{
+  "name": "asos-tracker",
+  "version": "1.0.0",
+  "description": "Asos tracker",
+  "main": "index.js",
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": ["prettier --single-quote --write", "git add"]
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^4.3.0",
+    "prettier": "^1.7.4"
+  }
+}
