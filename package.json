@@ -16,8 +16,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.5.1",
     "cheerio": "^1.0.0-rc.2",
-    "request": "^2.83.0"
+    "jsdom": "^11.3.0",
+    "phantom": "^4.0.5",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
   },
   "devDependencies": {
     "husky": "^0.14.3",
