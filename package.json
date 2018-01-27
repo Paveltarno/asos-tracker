@@ -13,18 +13,21 @@
     "precommit": "lint-staged",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "ts-node index.ts"
+    "start": "ts-node src/index.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.5.1",
     "lodash": "^4.17.4",
-    "puppeteer": "^0.13.0"
+    "puppeteer": "^0.13.0",
+    "winston": "^2.4.0"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.85",
     "@types/puppeteer": "^0.12.4",
+    "@types/winston": "^2.3.7",
+    "foreman": "^2.0.0",
     "husky": "^0.14.3",
     "lint-staged": "^4.3.0",
     "prettier": "^1.7.4",
