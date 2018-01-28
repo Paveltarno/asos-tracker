@@ -1,7 +1,7 @@
 import * as logger from 'winston';
 import { settings } from './infra/settings';
 
-logger.info(`Initializing scraper`, settings);
+logger.info(`Initializing scraper`);
 
 async function cleanup() {
   console.info('Shutting down, closing stuff 💤');

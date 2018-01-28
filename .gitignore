@@ -55,7 +55,7 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
-tenv environment variables file
-
+# environment variables file
+.env
 
 dist/
