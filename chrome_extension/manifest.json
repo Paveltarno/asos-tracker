@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Asos extensionnn",
+  "name": "Asos Tracker extension",
   "description":
     "This extension allows to track unavailable items from ASOS/",
   "version": "1.0",
@@ -16,7 +16,7 @@
   "content_scripts": [
     {
       "matches": ["http://www.asos.com/*"],
-      "js": ["mycontentscript.js"]
+      "js": ["contentscript.js"]
     }
   ]
 }
